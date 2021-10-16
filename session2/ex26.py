@@ -13,3 +13,11 @@
         False
         False
 """
+a=input()
+while a!='exit' :
+    if int(a)%2==0:
+        print(True)
+    else:
+        print(False)
+    a=input("Nr.= ")
+

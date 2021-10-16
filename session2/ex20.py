@@ -16,3 +16,18 @@
             2: 'i'
         }
 """
+s=input('sir= ')
+x=int(input('x= '))
+d1={}
+
+while len(s)!=x:
+    print('stringul are o lungime diferita de x. Introdu x din nou')
+    s=input("sir= ")
+l=[]
+for i in s:
+    l.append(i)
+for i in range(len(s)):
+    d1[i]=l[i]
+print(d1)
+
+

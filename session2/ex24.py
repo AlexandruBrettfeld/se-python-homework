@@ -14,3 +14,15 @@
         Veti primi: 1232
         Veti printa: False
 """
+a=input()
+b=a[::-1]
+
+a=int(a)
+b=int(b)
+if a==b:
+    print(True)
+else:
+    print(False)
+
+
+

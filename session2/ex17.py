@@ -7,3 +7,7 @@
         Veti primi: 'cmi', 5
         Veti printa: 'cmicmicmicmicmi'
 """
+x=input('string= ')
+
+y=int(input('factor= '))
+print(x*y)

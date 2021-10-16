@@ -6,3 +6,9 @@
         Veti primi: 'cmi'
         Veti printa: ('c', 'm', 'i')
 """
+s=input('sir= ')
+l=[]
+for i in s:
+    l.append(i)
+l=tuple(l)
+print(l)

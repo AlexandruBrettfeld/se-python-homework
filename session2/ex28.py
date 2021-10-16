@@ -6,3 +6,8 @@
         Veti primi: 5
         Veti printa: 15
 """
+a=int(input())
+s=0
+for i in range(a+1):
+    s=i+s
+print(s)

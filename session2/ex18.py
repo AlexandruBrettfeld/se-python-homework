@@ -7,3 +7,10 @@
         Veti primi: 'Center for Intelligent Machines', 2, 5
         Veti printa: 'nter'
 """
+x=int(input('x= '))
+y=int(input('y= '))
+s=input('sir= ')
+print(s[x:y])
+
+
+
